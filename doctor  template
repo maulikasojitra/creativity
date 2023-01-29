@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Doctors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            /* background-color: aqua; */
+            font-family: 'Josefin Sans', sans-serif;                
+        }
+        header{
+            height: 100vh;
+            width:100%;
+             background-image: url('img/bg.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%; 
+        }
+        .mainheader{
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+        }
+        
+        .mainheader .logo{
+            margin-top: 20px;
+        }
+        .mainheader .logo img{
+            width: 270px;
+            height: 80px;
+            padding-left: 60px;
+            
+            
+            
+
+        }
+        .mainheader nav{
+            width: 450px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+        
+            /* border: 2px solid red; */
+
+        }
+        .mainheader nav a{
+            text-decoration: none;
+            color: black;
+             text-transform: uppercase;
+             
+        }
+        .mainheader nav a:hover{
+            color: rgb(42, 13, 209);
+            text-decoration-style: solid;
+        }
+        .menubtn{
+            margin-right: 60px;
+            margin-top: 35px;
+        }
+        .mainheader button{
+            padding: 10px 45px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            border: none;
+            background-color: rgb(34, 34, 235);
+            border-radius: 10px;
+
+        }
+        main{
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+        }
+        main .right-sec{
+            padding-right: 70px;
+
+        }
+        main .left-sec{
+            padding-left: 100px;
+
+        }
+        .left-sec h2{
+            font-size: 20px;
+            text-transform: capitalize;
+            font-weight: lighter;
+            color: #242424;
+            margin-top:15px;
+        }
+        .left-sec h1{
+            font-size: 55px;
+            text-transform: capitalize;
+            font-weight: 700;
+            margin:15px 0px;
+        }
+        .left-sec p{
+            margin-bottom: 20px;
+        }
+        .left-sec button{
+            padding: 15px 45px;
+            text-align: center;
+            font-size: 14px;
+            color: #fff;
+            border: none;
+            background-color: rgb(34, 34, 235);
+            border-radius: 10px;
+            margin-top: 15px;
+
+        }
+        
+        
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="mainheader">
+            <div class="logo">
+                <img src="img/Thapa medcare (4).png" alt="thapa">
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="menubtn">
+                <button>Helpline</button>
+            </div>
+
+        </div>
+        <main>
+            <section class="left-sec">
+               <h2>We Are Here For Your Care</h2>
+               <h1>We The Best Doctors</h1>
+               <p>We are here for your care 24/7. Any help just call us.</p>
+               <button>
+                   Make an appointment
+               </button>
+            </section>
+            <section class="right-sec">
+                <figure>
+                    <img src="img/Dm.jpg" alt="">
+                </figure>
+
+            </section>
+        </main>
+    </header>
+</body>
+</html>
